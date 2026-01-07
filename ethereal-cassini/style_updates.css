@@ -1,0 +1,28 @@
+/* Partners (Static Image) */
+#parceiros {
+    padding: 60px 0;
+    background: var(--light-bg);
+    text-align: center;
+}
+
+.partners-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.partners-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* Optional: adds subtle rounding */
+    /* Remove shadow if the image has its own background or transparency */
+}
+
+/* Responsive adjustments for the image */
+@media (max-width: 768px) {
+    .partners-img {
+        width: 100%;
+    }
+}
